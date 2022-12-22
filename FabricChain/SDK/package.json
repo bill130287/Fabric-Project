@@ -1,0 +1,34 @@
+{
+  "name": "fabric-network-sample",
+  "version": "1.0.0",
+  "description": "hyperledger fabric 2.0 network node sdk sample",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src -e ts,tsx --exec ts-node --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahaelx/fabric-network-sample.git"
+  },
+  "keywords": [
+    "fabric",
+    "chaincode",
+    "fabric-network"
+  ],
+  "author": "Evan Lee",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^15.12.2",
+    "fabric-network": "^2.2.11",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/hahaelx/fabric-network-sample/issues"
+  },
+  "homepage": "https://github.com/hahaelx/fabric-network-sample#readme"
+}

@@ -1,0 +1,3 @@
+cp ~/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem ./metadata
+cp ~/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/priv_sk ./metadata
+cp ~/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json ./metadata
