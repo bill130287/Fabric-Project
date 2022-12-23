@@ -40,7 +40,7 @@ conda env create -f hyperledger.yaml
 # Help
 建環境時若有問題，可以參考以下資料(我之前做的一點紀錄)
 
-- install ***charm-crypto***</u>: https://pse.is/4nx7kz
+- install ***charm-crypto***: https://pse.is/4nx7kz
 - install ***docker*** and test ***Hyperledger Fabric Sample***: https://pse.is/4p2l5x
 
 # Usage
