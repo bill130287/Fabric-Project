@@ -17,23 +17,21 @@ FL + CPABE + Paillier encryption on Hyperledger Fabric
 ```
 
 # Create Environment
-install ***Anaconda*** first
-## for local training (charm-crypto)
-```bash
-# ######################################################################################################### #
-# - modify "prefix" in charm.yaml                                                                           #
-# - charm-crypto 這個套件直接安裝有可能會有問題，可以先試用下面的方法複製環境，不行的話可參考下方提供的方法自行安裝  #
-# ######################################################################################################### #
+- install ***Anaconda*** first
 
+## for local training (charm-crypto)
+- modify "prefix" in charm.yaml first 
+- charm-crypto 這個套件直接安裝有可能會有問題，可以先試用下面的方法複製環境，不行的話可參考下方提供的方法自行安裝
+
+```bash
 cd fabric_proj/
 conda env create -f charm.yaml 
 ```
 
 ## for Hyperledger
+- modify "prefix" in hyperledger.yaml first
+
 ```bash
-# ###################################### #
-# - modify "prefix" in hyperledger.yaml  #
-# ###################################### #
 cd FabricChain/
 conda env create -f hyperledger.yaml 
 ```
