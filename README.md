@@ -29,9 +29,9 @@ conda env create -f charm.yaml
 ```
 ## for Hyperledger                                                                              #
 ```bash
-# ############################## #
+# ###################################### #
 # - modify "prefix" in hyperledger.yaml  #
-# ############################## #
+# ###################################### #
 cd FabricChain/
 conda env create -f hyperledger.yaml 
 ```
