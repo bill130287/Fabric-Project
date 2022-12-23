@@ -17,7 +17,7 @@ FL + CPABE + Paillier encryption on Hyperledger Fabric
 ```
 
 # Create Environment
-install <u>**Anaconda**</u> first
+install ***Anaconda*** first
 ## for local training (charm-crypto)
 ```bash
 # ######################################################################################################### #
@@ -40,8 +40,8 @@ conda env create -f hyperledger.yaml
 # Help
 建環境時若有問題，可以參考以下資料(我之前做的一點紀錄)
 
-- install <u>**charm-crypto**</u>: https://pse.is/4nx7kz
-- install <u>**docker**</u> and test <u>**Hyperledger Fabric Sample**</u>: https://pse.is/4p2l5x
+- install ***charm-crypto***</u>: https://pse.is/4nx7kz
+- install ***docker*** and test ***Hyperledger Fabric Sample***: https://pse.is/4p2l5x
 
 # Usage
 ## Local  (Python)
