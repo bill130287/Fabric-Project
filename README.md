@@ -6,8 +6,8 @@ FL + CPABE + Paillier encryption on Hyperledger Fabric
 .  
 ├── FabricChain  
 │   ├── HEFL_Test (chaincode)  
-│   ├── SDK (NodeJs SDK for Fabric)  
-│   ├── hyperledeger.yaml (create environment in Anaconda)  
+│   ├── SDK_HEFL_Test (NodeJs SDK for Fabric)  
+│   ├── hyperledger.yaml (create environment in Anaconda)  
 │   └── one-click.sh (create test-network and deploy chaincode on Fabric)    
 ├── fabric_proj  
 │   ├── local (for local training) 
